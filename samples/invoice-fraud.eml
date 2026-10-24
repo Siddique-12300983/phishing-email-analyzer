@@ -1,0 +1,50 @@
+From: "Harbourline Billing" <accounts@harbourline-freight.example>
+Reply-To: payments@collections-recovery.example
+Return-Path: bounce@mailer.example.net
+To: emily.taylor@example.com
+Subject: URGENT: Overdue invoice - payment required immediately
+Date: Sat, 24 Oct 2026 22:34:50 -0000
+Message-ID: <inv-20261024-0001@mailer.example.net>
+Authentication-Results: mx.example.com; spf=fail
+ smtp.mailfrom=mailer.example.net; dkim=none; dmarc=fail
+Received: from mailer.example.net (mailer.example.net [203.0.113.45]) by
+ mx.example.com with ESMTP id ABC123 for <emily.taylor@example.com>; Sat, 24
+ Oct 2026 09:14:02 +0000
+Received: from unknown (helo=localhost) by mailer.example.net with SMTP; Sat,
+ 24 Oct 2026 09:14:00 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============3375481975060623989=="
+
+--===============3375481975060623989==
+Content-Type: multipart/alternative;
+ boundary="===============0658844381079694884=="
+
+--===============0658844381079694884==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your invoice is overdue. Please pay immediately to avoid suspension of servic=
+e.
+Verify your account and confirm your payment within 24 hours.
+
+--===============0658844381079694884==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Your invoice is <b>overdue</b>. Please pay <b>immediately</b> =
+to avoid suspension.</p><p><a href=3D"http://203.0.113.45/pay">https://portal=
+.harbourline-freight.example/pay</a></p><p>Verify your account and confirm yo=
+ur payment within 24 hours.</p></body></html>
+
+--===============0658844381079694884==--
+
+--===============3375481975060623989==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice_2026.html"
+MIME-Version: 1.0
+
+PGh0bWw+PGJvZHk+ZmFrZSBpbnZvaWNlIHBheW1lbnQgZm9ybTwvYm9keT48L2h0bWw+
+
+--===============3375481975060623989==--
